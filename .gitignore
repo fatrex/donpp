@@ -1,11 +1,12 @@
+# IDE
 .idea
 .vscode
 .history
 
-.docker/**
-!.docker/**/
-!.docker/**/.gitkeep
-
+# APP
+app/**
+!app/index.php
 .env
 
+# OS
 DS_STORE
