@@ -10,7 +10,7 @@ services:
     ports:
       - ${SERVER_PORT-80}:80
   php:
-    image: php:8.0.5-fpm-alpine
+    build: ./.docker/php
     volumes:
       - ./src:/var/www/html
     depends_on:
