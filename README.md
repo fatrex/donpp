@@ -24,4 +24,4 @@ To start:
 docker-compose up
 ```
 
-Your PHP environment is ready to show everything you throw in the `app` folder.
+Your PHP environment is ready to show everything you throw in the `src` folder.
