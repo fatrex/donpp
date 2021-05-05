@@ -1,0 +1,11 @@
+.idea
+.vscode
+.history
+
+.docker/**
+!.docker/**/
+!.docker/**/.gitkeep
+
+.env
+
+DS_STORE
