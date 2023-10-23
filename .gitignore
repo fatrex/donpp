@@ -7,6 +7,7 @@
 app/**
 !app/index.php
 .env
+src/
 
 # OS
 DS_STORE
